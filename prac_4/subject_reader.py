@@ -4,7 +4,7 @@ Data file -> lists program
 """
 
 FILENAME = "subject_data.txt"
-
+data =[]
 
 def main():
     data = get_data()
@@ -23,7 +23,17 @@ def get_data():
         parts[2] = int(parts[2])  # Make the number an integer (ignore PyCharm's warning)
         print(parts)  # See if that worked
         print("----------")
+        data.append(parts)
+
+
+
+
     input_file.close()
+    print(data)
+
+
+    for subject_data in data:
+        print("{} is taught by {:12} and has {:3} students".format(*subject_data))
 
 
 main()
