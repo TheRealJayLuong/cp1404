@@ -16,4 +16,5 @@ while COLOUR_CODE != "Q":
 
     else:
         print("Invalid colour name")
+        
     COLOUR_CODE = input("Enter your colour")

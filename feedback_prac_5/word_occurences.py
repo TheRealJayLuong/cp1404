@@ -1,7 +1,6 @@
 """Count the occurrences of words in a string"""
 
 counts = {}
-
 text = input("Please enter your Text:")
 texts = text.split()
 
