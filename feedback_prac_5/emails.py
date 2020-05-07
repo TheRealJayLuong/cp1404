@@ -1,6 +1,7 @@
 
 def main():
     """Store users'emails and names in dictionary """
+
     creating_dict = {}
     email = input("Email: ")
 

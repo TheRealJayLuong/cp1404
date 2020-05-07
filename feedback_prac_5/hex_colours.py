@@ -9,6 +9,7 @@ while COLOUR_CODE != "Q":
 
     if COLOUR_CODE in CODE_TO_COLOURS:
         print("{} is {}".format(COLOUR_CODE, CODE_TO_COLOURS[COLOUR_CODE]))
+        
     elif COLOUR_CODE == "":
         quit()
 

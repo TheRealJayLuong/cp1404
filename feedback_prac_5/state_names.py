@@ -11,6 +11,7 @@ print(CODE_TO_NAME)
 
 STATE_CODE = str.upper(input("Enter short state: "))
 while STATE_CODE != "":
+
     if STATE_CODE in CODE_TO_NAME:
         print(STATE_CODE, "is", CODE_TO_NAME[STATE_CODE])
     else:
