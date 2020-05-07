@@ -4,11 +4,14 @@ CODE_TO_COLOURS = {"BlueViolet": "#8a2be2", "burlywood": "#deb887", "CadetBlue":
                    "DarkKhaki": "#bdb76b", "DarkOrange": "#ff8c00"}
 print(CODE_TO_COLOURS)
 COLOUR_CODE = input("Enter your colour")
+
 while COLOUR_CODE != "Q":
+
     if COLOUR_CODE in CODE_TO_COLOURS:
         print("{} is {}".format(COLOUR_CODE, CODE_TO_COLOURS[COLOUR_CODE]))
     elif COLOUR_CODE == "":
         quit()
+
     else:
         print("Invalid colour name")
     COLOUR_CODE = input("Enter your colour")
