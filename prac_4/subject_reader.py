@@ -33,7 +33,7 @@ def get_data():
 
 
     for subject_data in data:
-        print("{} is taught by {:12} and has {:3} students".format(*subject_data))
+       print("{} is taught by {:12} and has {:3} students".format(*subject_data))
 
 
 main()
