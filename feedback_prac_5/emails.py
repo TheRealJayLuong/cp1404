@@ -11,6 +11,7 @@ def main():
 
         if get_your_name.upper() != "Y" and get_your_name != "":
             name = input("Name: ")
+
         creating_dict[email] = name
         email = input("Email: ")
 

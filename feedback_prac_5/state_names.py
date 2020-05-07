@@ -10,6 +10,7 @@ CODE_TO_NAME = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern T
 print(CODE_TO_NAME)
 
 STATE_CODE = str.upper(input("Enter short state: "))
+
 while STATE_CODE != "":
 
     if STATE_CODE in CODE_TO_NAME:
