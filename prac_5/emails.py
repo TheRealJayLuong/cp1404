@@ -19,7 +19,6 @@ def main():
 
 def get_name(email):
     """Display the name from email"""
-
     part = email.split("@")[0]
     parts = part.split('.')
     name = " ".join(parts).title()
