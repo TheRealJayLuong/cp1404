@@ -1,6 +1,7 @@
 
 def main():
     """Store users'emails and names in dictionary """
+
     creating_dict = {}
     email = input("Email: ")
 
@@ -10,6 +11,7 @@ def main():
 
         if get_your_name.upper() != "Y" and get_your_name != "":
             name = input("Name: ")
+
         creating_dict[email] = name
         email = input("Email: ")
 
@@ -23,6 +25,7 @@ def get_name(email):
     part = email.split("@")[0]
     parts = part.split('.')
     name = " ".join(parts).title()
+
     return name
 
 
