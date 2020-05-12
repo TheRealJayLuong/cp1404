@@ -6,6 +6,7 @@ guitars = []
 
 def main():
     """Guitar program is worked by Guitar class"""
+
     print("My guitars!")
     name = input("Name: ")
     while name != "":

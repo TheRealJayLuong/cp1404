@@ -2,6 +2,7 @@
 class Guitar:
     def __init__(self, name="", year=0, cost=0):
         """storing information about guitars"""
+
         self.name = name
         self.year = year
         self.cost = cost

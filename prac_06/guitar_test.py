@@ -4,6 +4,7 @@ from guitar import Guitar
 
 def test():
     """Test guitar class"""
+
     name = "Gibson L-5 CES"
     year = 1922
     cost = 16035.40
